@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Mplus 1p';
+}
+
+#container {
+    width: 850px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    text-align: left;
+    background: white;
+}
+#header{
+  padding: 10px 10px 0px 20px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+#flash_header a {
+  border: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+#body{
+  background-color: #ffffff;
+  /*height: 850px;*/
+  /*overflow: auto;*/
+  /*overflow-x: hidden;*/
+  /*overflow-y: auto;*/
+}
+
+#footer{
+  clear: both;
+  padding: 20px 10px 5px 20px;
+  /*ほんとは白*/
+  background-color:white;
+  text-align: center;
+}
+
+#menu{
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#menu li{
+  margin: 0 13px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div{
+  display: block;
+  background-color: white;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
+
+#top{
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+
+#top_left{
+  float: left;
+  margin: 20px 0 0 10px;
+}
+
+#news {
+  width: 240px;
+  float: right;
+  margin: 20px 10px 0 0;
+  overflow: hidden;
+
+}
+
+#news_title{
+  color: gray;
+  /*text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;*/
+}
+
+#news ul {
+    list-style: none;
+    border-bottom: 1px dotted #c3cbe4;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+#news ul li {
+    padding: 10px 10px 5px 15px;
+    font-size: 13px;
+    border-top: 1px dotted #c3cbe4;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+
+#news li .time {
+    font-size: 0.9em;
+}
+
+#twitter{
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutus{
+  display: block;
+  height: 200px;
+}
+
+#concept_h1{
+  display: block;
+  float: left;
+  width: 200px;
+  text-align: left;
+
+}
+
+#concept{
+  display: block;
+  float: right;
+  width: 650px;
+  height: auto;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#member{
+  display: block;
+}
+
+#member_h1{
+  display: block;
+  float: left;
+  width: 200px;
+  text-align: left;
+}
+
+#member #member_waku {
+    display: inline-block;
+    width: 650px;
+    /*margin: 0 0 0 200px;*/
+}
+
+#member .member_img{
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+#member .member_block {
+    float: left;
+    width: 330px;
+    height: 200px;
+    padding: 20px 0 0 0;
+}
+
+#member .member_text{
+  padding: 0 0 0 50px;
+  font: 12px Arial;
+}
+
+#intro{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#product{
+  background-color: white;
+}
+.product_block{
+  float: left;
+  width: 100%;
+  height: 300px;
+  padding: 10px 10px 15px 10px;
+}
+
+.product_img{
+  float: left;
+}
+
+.product_text{
+  display: inline-block;
+  float: left;
+  width: 400px;
+  padding-left:50px;
+}
